@@ -1,0 +1,30 @@
+{
+  "name": "rss-slack-integration",
+  "version": "1.0.0",
+  "description": "Super simple Ghost blog Slack-integration to notify Slack channel upon new posts.",
+  "main": "index.coffee",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "coffee -o lib/ -c src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pilsprog/rss-slack-integration.git"
+  },
+  "keywords": [
+    "rss",
+    "Slack",
+    "Integration"
+  ],
+  "author": "Snorre Magnus Davøen <snorremd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pilsprog/rss-slack-integration/issues"
+  },
+  "homepage": "https://github.com/pilsprog/rss-slack-integration#readme",
+  "dependencies": {
+    "request": "^2.64.0",
+    "rss-watcher": "^1.3.0"
+  }
+}
