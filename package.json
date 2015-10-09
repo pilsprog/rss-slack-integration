@@ -1,8 +1,8 @@
 {
   "name": "rss-slack-integration",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Super simple Ghost blog Slack-integration to notify Slack channel upon new posts.",
-  "main": "index.coffee",
+  "main": "./lib/index.js",
   "scripts": {
     "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
