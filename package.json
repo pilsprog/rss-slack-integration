@@ -1,6 +1,6 @@
 {
   "name": "rss-slack-integration",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Super simple Ghost blog Slack-integration to notify Slack channel upon new posts.",
   "main": "./lib/index.js",
   "scripts": {
