@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node lib/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "coffee -o lib/ -c src/"
+    "prepare": "coffee -o lib/ -c src/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "dependencies": {
     "request": "^2.64.0",
     "rss-watcher": "^1.4.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.7"
   }
 }
